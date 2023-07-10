@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.btn-primary{
+
+.btn-primary {
     width: 140px;
     height: 60px;
     /* padding: 10px 20px; */
@@ -11,40 +12,43 @@
     border: none;
     font-weight: bold;
     font-size: 15px;
-    color:blue;
+    color: blue;
 }
 
 /* Banner styles */
-.banner-container{
+.banner-container {
     background-image: url("./images/banner/banner3.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
 }
-.banner{
+
+.banner {
     /* display: flex;
     flex-direction: column; */
     text-align: right;
     width: 30%;
     margin-left: 60%;
-   
+
 }
-.banner-title{
-  font-size: 60px;
-  color: aliceblue;
-  margin-bottom: 30px;
+
+.banner-title {
+    font-size: 60px;
+    color: aliceblue;
+    margin-bottom: 30px;
 }
-.banner-description{
+
+.banner-description {
     font-size: 20px;
     color: aliceblue;
     margin-bottom: 20px;
 }
 
 /* failure styles */
-.failure-container{
+.failure-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,23 +57,82 @@
     height: 100vh;
     width: 100%;
 }
-.me{
+
+.me {
     height: 78%;
     margin-left: 100px;
 }
-.failure-title{
+
+.failure-title {
     font-size: 40px;
     width: 35%;
     margin-bottom: 30px;
 }
-.failure-description{
+
+.failure-description {
     width: 58%;
     margin-bottom: 20px;
     line-height: 25px;
 }
-.list{
+
+.list {
     line-height: 25px;
 }
-.list i{
+
+.list i {
     color: aqua;
+}
+
+/* plan and contact styles */
+.plan-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.plan-title {
+    font-size: 40px;
+}
+
+.plan-list {
+    display: flex;
+    gap: 120px;
+    text-align: center;
+}
+
+.plan-item {
+    margin-bottom: 10px;
+}
+
+.plan-name {
+    font-size: 26px;
+}
+
+.plan-description {
+    font-size: 20px;
+}
+
+.contact {
+    background-image: url("./images/watch.png"),
+    linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
+    background-blend-mode: overlay;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 65%;
+    height: 35%;
+}
+.contact-title{
+    font-size: 40px;
+    color: aliceblue;
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.call{
+    margin-left: 40px;
 }
