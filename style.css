@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn-primary{
+    width: 140px;
+    height: 60px;
+    /* padding: 10px 20px; */
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    color:blue;
+}
+
+/* Banner styles */
+.banner-container{
+    background-image: url("./images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.banner{
+    /* display: flex;
+    flex-direction: column; */
+    text-align: right;
+    width: 30%;
+    margin-left: 60%;
+   
+}
+.banner-title{
+  font-size: 60px;
+  color: aliceblue;
+  margin-bottom: 30px;
+}
+.banner-description{
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
