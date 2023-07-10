@@ -136,3 +136,40 @@
 .call{
     margin-left: 40px;
 }
+
+/* footer styles */
+.footer-container{
+    height: 50vh;
+    background: var(--dark-01, #151414);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    
+}
+.contact-info{
+    width: 40%;
+    margin-left: 160px;
+}
+.foot1{
+    margin-bottom: 20px;
+}
+.foot{
+    margin-bottom: 10px;
+}
+#form{
+    height: 30px;
+    width: 200px;
+    background: none;
+    border: 1px solid white;
+}
+.btn-second{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #005FAC;
+    border: none;
+    color: aliceblue;
+}
+.contact-info i{
+    margin-right: 15px;
+    font-size: 25px;
+}
